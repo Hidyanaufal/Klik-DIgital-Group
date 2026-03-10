@@ -19,7 +19,7 @@ function Dashboard() {
         <div className="text-white px-27 pb-16 max-w-4xl">
 
           <h1 className="text-5xl font-bold mb-5 animate-slideUp">
-            Ruang Kolaborasi Tanpa Batas untuk Masa Depan yang Lebih Baik.
+            Unlimited Collaboration Space for a Better Future
           </h1>
 
           <h2 className="text-xl opacity-90 animate-slideUp-delay">

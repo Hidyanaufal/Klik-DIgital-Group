@@ -3,7 +3,6 @@ import Dashboard from './pages/Dashboard'
 import News from './pages/News'
 
 
-
 function Home() {
   return (
     <>
@@ -11,7 +10,6 @@ function Home() {
     <Dashboard />
     <News />
     </>
-    
   )
 }
 
