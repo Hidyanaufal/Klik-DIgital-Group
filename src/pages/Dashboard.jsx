@@ -23,8 +23,7 @@ function Dashboard() {
           </h1>
 
           <h2 className="text-xl opacity-90 animate-slideUp-delay">
-            Klik Digital Group mewadahi semangat kebersamaan dalam inovasi ramah lingkungan. 
-            Mari berkolaborasi untuk masa depan.
+            Klik Digital Group fosters a spirit of togetherness in environmentally friendly innovation. Let's collaborate for the future.
           </h2>
 
         </div>
