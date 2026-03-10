@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* IMAGE ZOOM */
+@keyframes slowZoom {
+  0% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-zoom {
+  animation: slowZoom 6s ease forwards;
+}
+
+/* OVERLAY FADE */
+@keyframes fadeOverlay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-overlay {
+  animation: fadeOverlay 1.2s ease forwards;
+}
+
+/* TEXT SLIDE UP */
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUpFade 0.9s ease forwards;
+}
+
+.animate-slideUp-delay {
+  animation: slideUpFade 0.9s ease forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
